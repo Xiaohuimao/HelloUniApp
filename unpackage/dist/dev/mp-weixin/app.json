@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/cart/cart",
+    "pages/me/me"
+  ],
+  "subPackages": [],
+  "tabBar": {
+    "color": "#C3B8B8",
+    "selectedColor": "#C81D1D",
+    "backgroundColor": "#FFFFFF",
+    "fontSize": "20rpx",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/img/tabbar/home.png",
+        "selectedIconPath": "static/img/tabbar/shouyeapp.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "static/img/tabbar/classify.png",
+        "selectedIconPath": "static/img/tabbar/classify_active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/img/tabbar/cart.png",
+        "selectedIconPath": "static/img/tabbar/cart_active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "static/img/tabbar/me.png",
+        "selectedIconPath": "static/img/tabbar/me_active.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap82.json"
+}
